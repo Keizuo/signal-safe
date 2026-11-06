@@ -1,0 +1,37 @@
+[
+ {"id":"URG-RAP","is_scam":true,"tactic":"urgency","stage":"rapport","channel":"chat",
+  "sender":"OpsDesk_Live","subject":"",
+  "body":"Hi {player_name}, are you at your desk right now? I need a quick favour in the next few minutes, it really can't wait.[[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"'OpsDesk_Live' is not a person or team in the staff directory"},
+   {"id":"t3","obviousness":3,"flag":"Won't say what the favour is until you commit","text":" I'll explain once you confirm you're free."},
+   {"id":"t5","obviousness":5,"flag":"Asks for secrecy","text":" Please don't mention this to your manager."}],
+  "explanation":"Urgency is used to stop you thinking. An unverifiable sender who hides the actual ask is a classic opener that tests whether you will engage."},
+
+ {"id":"URG-PRT","is_scam":true,"tactic":"urgency","stage":"pretext","channel":"email",
+  "sender":"Accounts Payable <ap-desk@northstar-pay.example>","subject":"Invoice hold - action needed today",
+  "body":"Hello {player_name},\nA supplier invoice (ref INV-48812) assigned to your cost centre is about to lapse. I need you to confirm you are the approver so I can release it.[[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"Sender domain 'northstar-pay.example' is not the company domain 'northstar.example'"},
+   {"id":"t3","obviousness":3,"flag":"Pressure to bypass the normal approval queue","text":" It lapses at 5 pm today, so there is no time to route it through the usual approval queue."},
+   {"id":"t5","obviousness":5,"flag":"Asks for a code by reply","text":" Reply with your approval code right away."}],
+  "explanation":"A believable business story plus a deadline pushes you to skip the process that would expose it. The off-domain sender is the giveaway."},
+
+ {"id":"URG-REQ","is_scam":true,"tactic":"urgency","stage":"request","channel":"sms",
+  "sender":"+1 555-0142","subject":"",
+  "body":"Northstar IT: your VPN token expires in 15 minutes. Re-enter your login at northstar-vpn-renew.example/s to keep access.[[t4]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"The link domain is not the company's, and IT does not collect logins via text links"},
+   {"id":"t4","obviousness":4,"flag":"Threat of lockout to rush you","text":" Act now or you will be locked out for 3 days."},
+   {"id":"t5","obviousness":5,"flag":"Tells you not to use the official helpdesk","text":" Do NOT contact the helpdesk, they are overloaded."}],
+  "explanation":"The request (enter your login) is hidden behind a countdown. Real credential renewals never ask you to type a password into a link from a text."},
+
+ {"id":"URG-ESC","is_scam":true,"tactic":"urgency","stage":"escalation","channel":"call",
+  "sender":"Caller (unknown number)","subject":"Call transcript",
+  "body":"Caller: 'This is Dennis from the payments team, calling again. The wire goes out in ten minutes and I still need your sign-off.[[t3]][[t5]]'",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"Nobody named Dennis appears on the payments team roster, and you never signed off on this wire"},
+   {"id":"t3","obviousness":3,"flag":"Discourages you from calling back on a known number","text":" If you hang up and call back we will miss the window."},
+   {"id":"t5","obviousness":5,"flag":"Asks for approval credentials verbally","text":" Just read me your authoriser PIN and we are done."}],
+  "explanation":"After earlier contact, the pressure is turned up. Stopping you from independently calling back is the scammer's most important move."}
+]

@@ -1,0 +1,37 @@
+[
+ {"id":"FEA-RAP","is_scam":true,"tactic":"fear","stage":"rapport","channel":"sms",
+  "sender":"+1 555-0188","subject":"",
+  "body":"Security Notice: unusual sign-in to your Northstar account from another country. We will message you shortly with next steps.[[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"Unknown number and no ticket reference; real alerts arrive through the security portal"},
+   {"id":"t3","obviousness":3,"flag":"Threatens suspension to frighten you","text":" Your account may be suspended."},
+   {"id":"t5","obviousness":5,"flag":"Vague legal threat","text":" Failure to respond will lead to legal action."}],
+  "explanation":"A frightening notice primes you to expect a 'fix' from the same sender. Fear narrows attention."},
+
+ {"id":"FEA-PRT","is_scam":true,"tactic":"fear","stage":"pretext","channel":"email",
+  "sender":"Security Team <alerts@northstar-secure.example>","subject":"Incident opened in your name",
+  "body":"We detected malware sending data from your laptop and have opened an incident in your name. To help clear you, you will need to run a diagnostic we will send next.[[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"Sender domain 'northstar-secure.example' is not the company domain"},
+   {"id":"t3","obviousness":3,"flag":"Threatens involving HR and Legal to scare you","text":" HR and Legal have already been copied."},
+   {"id":"t5","obviousness":5,"flag":"Tells you not to ask anyone","text":" Do NOT switch off your computer or speak to anyone."}],
+  "explanation":"The goal is to make you cooperate with whatever comes next. Telling you to avoid colleagues cuts off your best defence: a second opinion."},
+
+ {"id":"FEA-REQ","is_scam":true,"tactic":"fear","stage":"request","channel":"chat",
+  "sender":"IT Helpdesk Live","subject":"",
+  "body":"Your laptop is leaking data right now. To stop it, tell me the code your authenticator app is showing.[[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"No legitimate IT person ever needs your one-time code"},
+   {"id":"t3","obviousness":3,"flag":"Personal blame to increase panic","text":" Every minute costs the company money and it is logged under your name."},
+   {"id":"t5","obviousness":5,"flag":"Refuses to give a ticket number","text":" I cannot give you a ticket number, there is no time."}],
+  "explanation":"One-time codes exist to prove it is you. Handing one over defeats the protection, however alarming the story is."},
+
+ {"id":"FEA-ESC","is_scam":true,"tactic":"fear","stage":"escalation","channel":"call",
+  "sender":"Caller (unknown number)","subject":"Call transcript",
+  "body":"Caller: 'I am calling about the incident I emailed you about. HR has been notified. Please read me the code that just arrived on your phone.[[t3]][[t5]]'",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"Asking you to read out a code sent to your phone is never legitimate"},
+   {"id":"t3","obviousness":3,"flag":"Threatens suspension and isolates you from your manager","text":" If we do not fix this on this call you will be suspended, and your manager cannot help."},
+   {"id":"t5","obviousness":5,"flag":"Tells you not to hang up and check","text":" Stay on the line and do not hang up."}],
+  "explanation":"At escalation, the threat and the demand arrive together. Calm, independent verification is the antidote to fear."}
+]

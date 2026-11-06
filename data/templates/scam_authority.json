@@ -1,0 +1,37 @@
+[
+ {"id":"AUT-RAP","is_scam":true,"tactic":"authority","stage":"rapport","channel":"email",
+  "sender":"Office of the CFO <office@northstar-exec.example>","subject":"Introduction",
+  "body":"Hello {player_name},\nMs. Voss asked me to introduce myself. I am her new executive assistant and will be sending a few requests your way this quarter.[[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"Sender domain 'northstar-exec.example' is not 'northstar.example'"},
+   {"id":"t3","obviousness":3,"flag":"Wants to avoid normal tracking","text":" She prefers that we keep these exchanges off the ticketing system."},
+   {"id":"t5","obviousness":5,"flag":"Asks you to use a personal email so nothing is logged","text":" Please reply from your personal email so it is not logged."}],
+  "explanation":"Borrowing an executive's name builds borrowed authority. The ask is small now so that bigger asks later feel normal."},
+
+ {"id":"AUT-PRT","is_scam":true,"tactic":"authority","stage":"pretext","channel":"chat",
+  "sender":"Compliance Auditor (external)","subject":"",
+  "body":"I am running a surprise access review on behalf of the board. Your department has been selected.[[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"No audit was announced on the internal compliance calendar"},
+   {"id":"t3","obviousness":3,"flag":"Auditors do not need your passwords to review access","text":" I will need to see how you currently store shared passwords."},
+   {"id":"t5","obviousness":5,"flag":"Threatens consequences for questioning","text":" Refusing to cooperate will be noted in your file."}],
+  "explanation":"An official-sounding role creates a pretext. Legitimate auditors use announced, documented processes and never need your secrets."},
+
+ {"id":"AUT-REQ","is_scam":true,"tactic":"authority","stage":"request","channel":"email",
+  "sender":"Marguerite Voss (CFO) <m.voss@northstar-mail.example>","subject":"Vouchers for client event",
+  "body":"I am in meetings and cannot talk. Please buy six $100 vouchers from the usual retailer and send me the codes by reply.[[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"The executive's address uses 'northstar-mail.example', not the company domain"},
+   {"id":"t3","obviousness":3,"flag":"Personal purchases outside the expense process are unusual","text":" I will reimburse you tomorrow."},
+   {"id":"t5","obviousness":5,"flag":"Asks for secrecy","text":" Keep this between us until the event."}],
+  "explanation":"Classic executive impersonation. The request for voucher codes by reply is a strong sign: real purchases go through procurement."},
+
+ {"id":"AUT-ESC","is_scam":true,"tactic":"authority","stage":"escalation","channel":"call",
+  "sender":"Caller (unknown number)","subject":"Call transcript",
+  "body":"Caller: 'This is Inspector Hale from the regional business bureau. We emailed you twice already. You must confirm the company payroll login details now so we can close this file.[[t3]][[t5]]'",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"No regulator asks for system credentials by phone, and no reference number is given"},
+   {"id":"t3","obviousness":3,"flag":"Threatens escalation to your director","text":" I am authorised to escalate this to your director today."},
+   {"id":"t5","obviousness":5,"flag":"Accuses you of obstruction for hesitating","text":" Hesitating counts as obstruction."}],
+  "explanation":"Official titles and legal-sounding threats are used to make you feel you cannot question the caller."}
+]

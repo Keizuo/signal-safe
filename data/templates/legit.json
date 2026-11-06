@@ -1,0 +1,65 @@
+[
+ {"id":"LEG-01","is_scam":false,"channel":"email","sender":"Tomasz Brandt (IT Helpdesk) <it-helpdesk@northstar.example>","subject":"Saturday maintenance window",
+  "body":"Hi all, scheduled maintenance Saturday 02:00-04:00. VPN will be unavailable. No action needed. It is also on the intranet calendar.",
+  "legit_cues":["Company domain northstar.example","No action requested","Matches the intranet calendar"],
+  "explanation":"A routine notice from a known sender that asks for nothing."},
+
+ {"id":"LEG-02","is_scam":false,"channel":"email","sender":"Imani Cole <imani.cole@northstar.example>","subject":"Benefits enrolment closes on the 30th",
+  "body":"Reminder: open enrolment closes on the 30th. Please log in to the HR portal using your own bookmark, not a link in this email. No reply is needed.",
+  "legit_cues":["Company domain","Tells you to use your own bookmark, not a link","Deadline is a published policy date"],
+  "lookalike_of":"urgency",
+  "explanation":"It has a deadline, but the deadline is a normal HR cycle and the message steers you to your own trusted route."},
+
+ {"id":"LEG-03","is_scam":false,"channel":"chat","sender":"Callum Reyes (internal chat, verified)","subject":"",
+  "body":"Hey {player_name}, can you drop the Q3 churn deck in the usual shared folder before our 2 pm sync?",
+  "legit_cues":["Known colleague on the internal chat","Ordinary work request","Uses the existing shared folder"],
+  "lookalike_of":"familiarity",
+  "explanation":"A friendly, ordinary request from a verified colleague through the normal tool."},
+
+ {"id":"LEG-04","is_scam":false,"channel":"sms","sender":"Northstar Facilities (registered alert number)","subject":"",
+  "body":"Fire drill tomorrow at 10:30. Meet at Assembly Point B. No reply needed.",
+  "legit_cues":["Registered company alert number","Asks for nothing","Matches the staff handbook"],
+  "lookalike_of":"urgency",
+  "explanation":"A short-notice alert that requires no data or clicks."},
+
+ {"id":"LEG-05","is_scam":false,"channel":"email","sender":"Accounts Payable <ap@northstar.example>","subject":"Expense report ER-2291 approved",
+  "body":"Your expense report ER-2291 was approved and will be paid in Friday's run. Nothing further is needed.",
+  "legit_cues":["Company domain","Refers to a report you actually submitted","No action requested"],
+  "explanation":"Confirmation of something you did yourself."},
+
+ {"id":"LEG-06","is_scam":false,"channel":"email","sender":"Marguerite Voss <m.voss@northstar.example>","subject":"Larkspur launch - all-hands Thursday",
+  "body":"Congratulations to the analytics team on the Larkspur launch. Please join me at the all-hands on Thursday at 3 pm in the atrium.",
+  "legit_cues":["Company domain","Invitation to an in-person event","No credentials, money or secrecy"],
+  "lookalike_of":"authority",
+  "explanation":"An executive message that asks only for your attendance."},
+
+ {"id":"LEG-07","is_scam":false,"channel":"call","sender":"Tomasz Brandt (IT)","subject":"Call transcript",
+  "body":"Caller: 'Hi {player_name}, Tomasz from IT. I am not asking for anything. I am just letting you know ticket HD-3318 that you opened yesterday is resolved. If you want to check, call the helpdesk number in the handbook.'",
+  "legit_cues":["References a ticket you opened","Asks for nothing","Invites you to verify via the handbook number"],
+  "lookalike_of":"pretexting",
+  "explanation":"The caller offers verification instead of discouraging it. That is the opposite of a scam pattern."},
+
+ {"id":"LEG-08","is_scam":false,"channel":"email","sender":"Security Team <security@northstar.example>","subject":"Phishing awareness month starts Monday",
+  "body":"Phishing awareness month starts Monday. Please complete the 15-minute module on the intranet learning page by the 20th.",
+  "legit_cues":["Company domain","Points to the intranet, not a link","Reasonable deadline"],
+  "lookalike_of":"fear",
+  "explanation":"A security topic is not a security threat. This is a planned programme with a reasonable deadline."},
+
+ {"id":"LEG-09","is_scam":false,"channel":"chat","sender":"Priya Anand (internal chat, verified)","subject":"",
+  "body":"Hey! Loved the forecasting walkthrough you gave last week. Do you have time Thursday to show me the dashboard setup?",
+  "legit_cues":["Verified colleague","References something you did","Asks for your time, not data"],
+  "lookalike_of":"familiarity",
+  "explanation":"Warm and personal, but verified and asking for nothing sensitive."},
+
+ {"id":"LEG-10","is_scam":false,"channel":"email","sender":"People Team <people@northstar.example>","subject":"Thanks for completing the engagement survey",
+  "body":"Thanks for completing the engagement survey. Everyone who finished is entered into the internal raffle for an extra day off. The winner will be announced at the all-hands.",
+  "legit_cues":["Company domain","Survey you did complete","No sign-in, fee or data request"],
+  "lookalike_of":"reward",
+  "explanation":"A real prize notice asks for nothing from you."},
+
+ {"id":"LEG-11","is_scam":false,"channel":"sms","sender":"Northstar IT Service (registered alert number)","subject":"",
+  "body":"Your password reset request has been processed. If you did not request it, please call the helpdesk number in the staff handbook.",
+  "legit_cues":["Registered number","Matches a reset you requested","Directs you to the handbook number, not a link"],
+  "lookalike_of":"fear",
+  "explanation":"It confirms an action, includes no link, and tells you to use a known number if it is unexpected."}
+]

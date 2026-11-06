@@ -1,0 +1,37 @@
+[
+ {"id":"FAM-RAP","is_scam":true,"tactic":"familiarity","stage":"rapport","channel":"chat",
+  "sender":"Jonas (Brightwell Logistics)","subject":"",
+  "body":"Hey {player_name}! We met at the harbour conference, right? Loved your talk on forecasting dashboards.[[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"You do not recall meeting this person, and the chat is unprompted"},
+   {"id":"t3","obviousness":3,"flag":"Quickly asks for your direct contact details","text":" I am putting together a small analyst group, mind sharing your direct number?"},
+   {"id":"t5","obviousness":5,"flag":"Moves you to an unapproved app","text":" Add me on this other messenger instead."}],
+  "explanation":"Flattery and false shared history create instant friendliness. People rarely challenge someone who seems to know them."},
+
+ {"id":"FAM-PRT","is_scam":true,"tactic":"familiarity","stage":"pretext","channel":"email",
+  "sender":"Callum Reyes <callum.reyes@northstar-mail.example>","subject":"Quick favour",
+  "body":"Hi {player_name}, hope the weekend was good! I am on my phone while travelling and my usual email is playing up, so I am writing from here. Are you free for a quick favour later?[[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"Your manager's usual address is on 'northstar.example', not 'northstar-mail.example'"},
+   {"id":"t3","obviousness":3,"flag":"Asks you to keep using the new address","text":" Please reply to this address only for now."},
+   {"id":"t5","obviousness":5,"flag":"Prevents you from phoning to check","text":" Do not call me, my phone is broken."}],
+  "explanation":"A familiar name plus a plausible excuse for the odd address. The excuse itself is the red flag."},
+
+ {"id":"FAM-REQ","is_scam":true,"tactic":"familiarity","stage":"request","channel":"sms",
+  "sender":"+1 555-0177 (unsaved number)","subject":"",
+  "body":"Hi it's Imani from HR, new phone! Could you send me the spreadsheet with everyone's home addresses? Doing the holiday cards, thanks![[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"Unsaved number; HR would use the HR system and would not ask for a full address list by text"},
+   {"id":"t3","obviousness":3,"flag":"Adds time pressure","text":" I need it before lunch."},
+   {"id":"t5","obviousness":5,"flag":"Steers you away from company email","text":" Just text it here, email is slow."}],
+  "explanation":"A friendly tone and a harmless reason hide a request for bulk personal data."},
+
+ {"id":"FAM-ESC","is_scam":true,"tactic":"familiarity","stage":"escalation","channel":"chat",
+  "sender":"Callum R. (new account)","subject":"",
+  "body":"Still need that favour, {player_name}. It is the vendor payment we talked about. Change the bank details to the new account and do not loop in Finance.[[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"Skipping Finance's change-of-bank-details check is a major red flag"},
+   {"id":"t3","obviousness":3,"flag":"Flattery to lower your guard","text":" You have always been the one I trust with this."},
+   {"id":"t5","obviousness":5,"flag":"Prevents any verification","text":" I am boarding, cannot talk. Just do it."}],
+  "explanation":"Bank-detail-change fraud. After weeks of friendly contact, the request feels like a favour. The process (Finance verification) is what protects you."}
+]

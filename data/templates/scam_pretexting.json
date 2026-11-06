@@ -1,0 +1,37 @@
+[
+ {"id":"PRE-RAP","is_scam":true,"tactic":"pretexting","stage":"rapport","channel":"email",
+  "sender":"Linnea Ostrom <linnea@northpier-research.example>","subject":"Student case study",
+  "body":"Hello {player_name},\nI am a graduate student writing a case study on analytics teams in mid-sized firms. Could I ask a few general questions about your tooling?[[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"An unknown outsider asking about internal tools; no approved research request exists"},
+   {"id":"t3","obviousness":3,"flag":"Asks which security tools you use","text":" Which cloud and VPN products does your team use?"},
+   {"id":"t5","obviousness":5,"flag":"Asks for internal structure","text":" Could you also forward the org chart?"}],
+  "explanation":"Reconnaissance. Harmless-sounding answers build a map of your systems for later attacks."},
+
+ {"id":"PRE-PRT","is_scam":true,"tactic":"pretexting","stage":"pretext","channel":"chat",
+  "sender":"Corvane Cloud Support (chat)","subject":"",
+  "body":"Hi, this is a courtesy check from Corvane Cloud support. We are updating our records and want to confirm which people on your team manage admin accounts.[[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"The vendor contacted you unprompted and there is no open support case"},
+   {"id":"t3","obviousness":3,"flag":"Asks for names and usernames of admins","text":" Could you list the names and usernames they sign in with?"},
+   {"id":"t5","obviousness":5,"flag":"Discourages checking with your manager","text":" It only takes a minute, no need to check with your manager."}],
+  "explanation":"A routine-sounding vendor check is used to identify the people with the most access."},
+
+ {"id":"PRE-REQ","is_scam":true,"tactic":"pretexting","stage":"request","channel":"call",
+  "sender":"Caller (unknown number)","subject":"Call transcript",
+  "body":"Caller: 'Hi, Marcus from Corvane Cloud support. You opened a ticket last week about slow dashboards. To close it I need remote access to your machine. Can you read me the access code on your screen?[[t3]][[t5]]'",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"You never opened that ticket and there is no matching ticket in the helpdesk"},
+   {"id":"t3","obviousness":3,"flag":"Refuses to give a verifiable ticket number now","text":" I will text you the ticket number afterwards."},
+   {"id":"t5","obviousness":5,"flag":"Asks you to install unknown software","text":" Please also install the small helper tool I am about to describe."}],
+  "explanation":"A convincing technical story ('your ticket') justifies remote access. Always check the ticket yourself via the known helpdesk first."},
+
+ {"id":"PRE-ESC","is_scam":true,"tactic":"pretexting","stage":"escalation","channel":"email",
+  "sender":"Corvane Support <case-update@corvane-support.example>","subject":"Case C-77310 - still open",
+  "body":"Following up on case C-77310. We cannot close it without remote access, and your dashboards may go offline from tomorrow.[[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"The case number does not exist in your helpdesk, and the sender domain is not the vendor's known address"},
+   {"id":"t3","obviousness":3,"flag":"Asks you to approve access without checking","text":" Please approve the access request now."},
+   {"id":"t5","obviousness":5,"flag":"Asks for an admin password by email","text":" Or reply with your admin password so we can do it overnight."}],
+  "explanation":"After rapport and a pretext, a consequence is added. A made-up case number is the thread to pull on."}
+]

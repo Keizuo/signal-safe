@@ -1,0 +1,37 @@
+[
+ {"id":"REW-RAP","is_scam":true,"tactic":"reward","stage":"rapport","channel":"sms",
+  "sender":"+1 555-0161","subject":"",
+  "body":"Congrats {player_name}! You have been picked for the Northstar Wellness Draw. Reply YES to meet your prize concierge.[[t4]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"You did not enter any draw, and no such programme was announced on the intranet"},
+   {"id":"t4","obviousness":4,"flag":"Artificial deadline on a prize","text":" Offer ends tonight!"},
+   {"id":"t5","obviousness":5,"flag":"Over-the-top guarantee language","text":" No cost, 100% guaranteed!!!"}],
+  "explanation":"A small 'win' gets you to reply, which confirms your number is active and starts a conversation."},
+
+ {"id":"REW-PRT","is_scam":true,"tactic":"reward","stage":"pretext","channel":"email",
+  "sender":"Halcyon Rewards <perks@halcyon-perks.example>","subject":"Your employer bonus pool",
+  "body":"Your employer has enrolled you in a loyalty bonus pool worth up to $450. To begin, please confirm your staff ID and date of birth.[[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"An unfamiliar outside company claims to speak for your employer and asks for personal data"},
+   {"id":"t3","obviousness":3,"flag":"Deadline pressure on a 'bonus'","text":" Bonuses unclaimed after 24 hours return to the pool."},
+   {"id":"t5","obviousness":5,"flag":"Asks for a photo of your badge","text":" Send a photo of your staff badge to speed things up."}],
+  "explanation":"A reward story justifies collecting personal details that can be used in later, more convincing attacks."},
+
+ {"id":"REW-REQ","is_scam":true,"tactic":"reward","stage":"request","channel":"chat",
+  "sender":"Culture Survey Team","subject":"",
+  "body":"Finish our 2-minute culture survey and get a $50 e-voucher. Sign in with your work password at culture-survey.example/start to begin.[[t4]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"A survey should never ask for your work password"},
+   {"id":"t4","obviousness":4,"flag":"Scarcity pressure","text":" Only the first 40 respondents qualify."},
+   {"id":"t5","obviousness":5,"flag":"Spelling errors","text":" Your vouchar will be emailed instantly."}],
+  "explanation":"The prize is bait; the password prompt is the real goal. Legitimate surveys use your normal single sign-on, not a typed-in password on a new site."},
+
+ {"id":"REW-ESC","is_scam":true,"tactic":"reward","stage":"escalation","channel":"email",
+  "sender":"Halcyon Rewards <claims@halcyon-perks.example>","subject":"Reminder: unclaimed $450",
+  "body":"Your $450 bonus is still unclaimed. To release it we just need a small $12 processing fee, paid by voucher code.[[t3]][[t5]]",
+  "tells":[
+   {"id":"t1","obviousness":1,"flag":"Real rewards never require you to pay a fee first"},
+   {"id":"t3","obviousness":3,"flag":"Social proof pressure","text":" Many of your colleagues have already claimed theirs."},
+   {"id":"t5","obviousness":5,"flag":"Asks for voucher codes","text":" Reply with the voucher code and a photo of the receipt."}],
+  "explanation":"Advance-fee scam. Once you have invested a little (data, a reply), a small payment seems reasonable."}
+]

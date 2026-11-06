@@ -1,0 +1,1587 @@
+[
+ {
+  "id": "LEG-01",
+  "template_id": "LEG-01",
+  "channel": "email",
+  "sender": "Tomasz Brandt (IT Helpdesk) <it-helpdesk@northstar.example>",
+  "subject": "Saturday maintenance window",
+  "message": "Hi all, scheduled maintenance Saturday 02:00-04:00. VPN will be unavailable. No action needed. It is also on the intranet calendar.",
+  "is_scam": false,
+  "tactic": "none",
+  "difficulty": 1,
+  "explanation": "A routine notice from a known sender that asks for nothing.",
+  "stage": "none",
+  "red_flags": [],
+  "legit_cues": [
+   "Company domain northstar.example",
+   "No action requested",
+   "Matches the intranet calendar"
+  ],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "LEG-02",
+  "template_id": "LEG-02",
+  "channel": "email",
+  "sender": "Imani Cole <imani.cole@northstar.example>",
+  "subject": "Benefits enrolment closes on the 30th",
+  "message": "Reminder: open enrolment closes on the 30th. Please log in to the HR portal using your own bookmark, not a link in this email. No reply is needed.",
+  "is_scam": false,
+  "tactic": "none",
+  "difficulty": 1,
+  "explanation": "It has a deadline, but the deadline is a normal HR cycle and the message steers you to your own trusted route.",
+  "stage": "none",
+  "red_flags": [],
+  "legit_cues": [
+   "Company domain",
+   "Tells you to use your own bookmark, not a link",
+   "Deadline is a published policy date"
+  ],
+  "lookalike_of": "urgency"
+ },
+ {
+  "id": "LEG-03",
+  "template_id": "LEG-03",
+  "channel": "chat",
+  "sender": "Callum Reyes (internal chat, verified)",
+  "subject": "Chat message",
+  "message": "Hey, can you drop the Q3 churn deck in the usual shared folder before our 2 pm sync?",
+  "is_scam": false,
+  "tactic": "none",
+  "difficulty": 1,
+  "explanation": "A friendly, ordinary request from a verified colleague through the normal tool.",
+  "stage": "none",
+  "red_flags": [],
+  "legit_cues": [
+   "Known colleague on the internal chat",
+   "Ordinary work request",
+   "Uses the existing shared folder"
+  ],
+  "lookalike_of": "familiarity"
+ },
+ {
+  "id": "LEG-04",
+  "template_id": "LEG-04",
+  "channel": "sms",
+  "sender": "Northstar Facilities (registered alert number)",
+  "subject": "Text message",
+  "message": "Fire drill tomorrow at 10:30. Meet at Assembly Point B. No reply needed.",
+  "is_scam": false,
+  "tactic": "none",
+  "difficulty": 1,
+  "explanation": "A short-notice alert that requires no data or clicks.",
+  "stage": "none",
+  "red_flags": [],
+  "legit_cues": [
+   "Registered company alert number",
+   "Asks for nothing",
+   "Matches the staff handbook"
+  ],
+  "lookalike_of": "urgency"
+ },
+ {
+  "id": "LEG-05",
+  "template_id": "LEG-05",
+  "channel": "email",
+  "sender": "Accounts Payable <ap@northstar.example>",
+  "subject": "Expense report ER-2291 approved",
+  "message": "Your expense report ER-2291 was approved and will be paid in Friday's run. Nothing further is needed.",
+  "is_scam": false,
+  "tactic": "none",
+  "difficulty": 1,
+  "explanation": "Confirmation of something you did yourself.",
+  "stage": "none",
+  "red_flags": [],
+  "legit_cues": [
+   "Company domain",
+   "Refers to a report you actually submitted",
+   "No action requested"
+  ],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "LEG-06",
+  "template_id": "LEG-06",
+  "channel": "email",
+  "sender": "Marguerite Voss <m.voss@northstar.example>",
+  "subject": "Larkspur launch - all-hands Thursday",
+  "message": "Congratulations to the analytics team on the Larkspur launch. Please join me at the all-hands on Thursday at 3 pm in the atrium.",
+  "is_scam": false,
+  "tactic": "none",
+  "difficulty": 1,
+  "explanation": "An executive message that asks only for your attendance.",
+  "stage": "none",
+  "red_flags": [],
+  "legit_cues": [
+   "Company domain",
+   "Invitation to an in-person event",
+   "No credentials, money or secrecy"
+  ],
+  "lookalike_of": "authority"
+ },
+ {
+  "id": "LEG-07",
+  "template_id": "LEG-07",
+  "channel": "call",
+  "sender": "Tomasz Brandt (IT)",
+  "subject": "Call transcript",
+  "message": "Caller: 'Hi, Tomasz from IT. I am not asking for anything. I am just letting you know ticket HD-3318 that you opened yesterday is resolved. If you want to check, call the helpdesk number in the handbook.'",
+  "is_scam": false,
+  "tactic": "none",
+  "difficulty": 1,
+  "explanation": "The caller offers verification instead of discouraging it. That is the opposite of a scam pattern.",
+  "stage": "none",
+  "red_flags": [],
+  "legit_cues": [
+   "References a ticket you opened",
+   "Asks for nothing",
+   "Invites you to verify via the handbook number"
+  ],
+  "lookalike_of": "pretexting"
+ },
+ {
+  "id": "LEG-08",
+  "template_id": "LEG-08",
+  "channel": "email",
+  "sender": "Security Team <security@northstar.example>",
+  "subject": "Phishing awareness month starts Monday",
+  "message": "Phishing awareness month starts Monday. Please complete the 15-minute module on the intranet learning page by the 20th.",
+  "is_scam": false,
+  "tactic": "none",
+  "difficulty": 1,
+  "explanation": "A security topic is not a security threat. This is a planned programme with a reasonable deadline.",
+  "stage": "none",
+  "red_flags": [],
+  "legit_cues": [
+   "Company domain",
+   "Points to the intranet, not a link",
+   "Reasonable deadline"
+  ],
+  "lookalike_of": "fear"
+ },
+ {
+  "id": "LEG-09",
+  "template_id": "LEG-09",
+  "channel": "chat",
+  "sender": "Priya Anand (internal chat, verified)",
+  "subject": "Chat message",
+  "message": "Hey! Loved the forecasting walkthrough you gave last week. Do you have time Thursday to show me the dashboard setup?",
+  "is_scam": false,
+  "tactic": "none",
+  "difficulty": 1,
+  "explanation": "Warm and personal, but verified and asking for nothing sensitive.",
+  "stage": "none",
+  "red_flags": [],
+  "legit_cues": [
+   "Verified colleague",
+   "References something you did",
+   "Asks for your time, not data"
+  ],
+  "lookalike_of": "familiarity"
+ },
+ {
+  "id": "LEG-10",
+  "template_id": "LEG-10",
+  "channel": "email",
+  "sender": "People Team <people@northstar.example>",
+  "subject": "Thanks for completing the engagement survey",
+  "message": "Thanks for completing the engagement survey. Everyone who finished is entered into the internal raffle for an extra day off. The winner will be announced at the all-hands.",
+  "is_scam": false,
+  "tactic": "none",
+  "difficulty": 1,
+  "explanation": "A real prize notice asks for nothing from you.",
+  "stage": "none",
+  "red_flags": [],
+  "legit_cues": [
+   "Company domain",
+   "Survey you did complete",
+   "No sign-in, fee or data request"
+  ],
+  "lookalike_of": "reward"
+ },
+ {
+  "id": "LEG-11",
+  "template_id": "LEG-11",
+  "channel": "sms",
+  "sender": "Northstar IT Service (registered alert number)",
+  "subject": "Text message",
+  "message": "Your password reset request has been processed. If you did not request it, please call the helpdesk number in the staff handbook.",
+  "is_scam": false,
+  "tactic": "none",
+  "difficulty": 1,
+  "explanation": "It confirms an action, includes no link, and tells you to use a known number if it is unexpected.",
+  "stage": "none",
+  "red_flags": [],
+  "legit_cues": [
+   "Registered number",
+   "Matches a reset you requested",
+   "Directs you to the handbook number, not a link"
+  ],
+  "lookalike_of": "fear"
+ },
+ {
+  "id": "AUT-RAP-D1",
+  "template_id": "AUT-RAP",
+  "channel": "email",
+  "sender": "Office of the CFO <office@northstar-exec.example>",
+  "subject": "Introduction",
+  "message": "Hello,\nMs. Voss asked me to introduce myself. I am her new executive assistant and will be sending a few requests your way this quarter. She prefers that we keep these exchanges off the ticketing system. Please reply from your personal email so it is not logged.",
+  "is_scam": true,
+  "tactic": "authority",
+  "difficulty": 1,
+  "explanation": "Borrowing an executive's name builds borrowed authority. The ask is small now so that bigger asks later feel normal.",
+  "stage": "rapport",
+  "red_flags": [
+   "Sender domain 'northstar-exec.example' is not 'northstar.example'",
+   "Wants to avoid normal tracking",
+   "Asks you to use a personal email so nothing is logged"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "AUT-RAP-D2",
+  "template_id": "AUT-RAP",
+  "channel": "email",
+  "sender": "Office of the CFO <office@northstar-exec.example>",
+  "subject": "Introduction",
+  "message": "Hello,\nMs. Voss asked me to introduce myself. I am her new executive assistant and will be sending a few requests your way this quarter. She prefers that we keep these exchanges off the ticketing system.",
+  "is_scam": true,
+  "tactic": "authority",
+  "difficulty": 2,
+  "explanation": "Borrowing an executive's name builds borrowed authority. The ask is small now so that bigger asks later feel normal.",
+  "stage": "rapport",
+  "red_flags": [
+   "Sender domain 'northstar-exec.example' is not 'northstar.example'",
+   "Wants to avoid normal tracking"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "AUT-RAP-D3",
+  "template_id": "AUT-RAP",
+  "channel": "email",
+  "sender": "Office of the CFO <office@northstar-exec.example>",
+  "subject": "Introduction",
+  "message": "Hello,\nMs. Voss asked me to introduce myself. I am her new executive assistant and will be sending a few requests your way this quarter.",
+  "is_scam": true,
+  "tactic": "authority",
+  "difficulty": 3,
+  "explanation": "Borrowing an executive's name builds borrowed authority. The ask is small now so that bigger asks later feel normal.",
+  "stage": "rapport",
+  "red_flags": [
+   "Sender domain 'northstar-exec.example' is not 'northstar.example'"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "AUT-PRT-D1",
+  "template_id": "AUT-PRT",
+  "channel": "chat",
+  "sender": "Compliance Auditor (external)",
+  "subject": "Chat message",
+  "message": "I am running a surprise access review on behalf of the board. Your department has been selected. I will need to see how you currently store shared passwords. Refusing to cooperate will be noted in your file.",
+  "is_scam": true,
+  "tactic": "authority",
+  "difficulty": 1,
+  "explanation": "An official-sounding role creates a pretext. Legitimate auditors use announced, documented processes and never need your secrets.",
+  "stage": "pretext",
+  "red_flags": [
+   "No audit was announced on the internal compliance calendar",
+   "Auditors do not need your passwords to review access",
+   "Threatens consequences for questioning"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "AUT-PRT-D2",
+  "template_id": "AUT-PRT",
+  "channel": "chat",
+  "sender": "Compliance Auditor (external)",
+  "subject": "Chat message",
+  "message": "I am running a surprise access review on behalf of the board. Your department has been selected. I will need to see how you currently store shared passwords.",
+  "is_scam": true,
+  "tactic": "authority",
+  "difficulty": 2,
+  "explanation": "An official-sounding role creates a pretext. Legitimate auditors use announced, documented processes and never need your secrets.",
+  "stage": "pretext",
+  "red_flags": [
+   "No audit was announced on the internal compliance calendar",
+   "Auditors do not need your passwords to review access"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "AUT-PRT-D3",
+  "template_id": "AUT-PRT",
+  "channel": "chat",
+  "sender": "Compliance Auditor (external)",
+  "subject": "Chat message",
+  "message": "I am running a surprise access review on behalf of the board. Your department has been selected.",
+  "is_scam": true,
+  "tactic": "authority",
+  "difficulty": 3,
+  "explanation": "An official-sounding role creates a pretext. Legitimate auditors use announced, documented processes and never need your secrets.",
+  "stage": "pretext",
+  "red_flags": [
+   "No audit was announced on the internal compliance calendar"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "AUT-REQ-D1",
+  "template_id": "AUT-REQ",
+  "channel": "email",
+  "sender": "Marguerite Voss (CFO) <m.voss@northstar-mail.example>",
+  "subject": "Vouchers for client event",
+  "message": "I am in meetings and cannot talk. Please buy six $100 vouchers from the usual retailer and send me the codes by reply. I will reimburse you tomorrow. Keep this between us until the event.",
+  "is_scam": true,
+  "tactic": "authority",
+  "difficulty": 1,
+  "explanation": "Classic executive impersonation. The request for voucher codes by reply is a strong sign: real purchases go through procurement.",
+  "stage": "request",
+  "red_flags": [
+   "The executive's address uses 'northstar-mail.example', not the company domain",
+   "Personal purchases outside the expense process are unusual",
+   "Asks for secrecy"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "AUT-REQ-D2",
+  "template_id": "AUT-REQ",
+  "channel": "email",
+  "sender": "Marguerite Voss (CFO) <m.voss@northstar-mail.example>",
+  "subject": "Vouchers for client event",
+  "message": "I am in meetings and cannot talk. Please buy six $100 vouchers from the usual retailer and send me the codes by reply. I will reimburse you tomorrow.",
+  "is_scam": true,
+  "tactic": "authority",
+  "difficulty": 2,
+  "explanation": "Classic executive impersonation. The request for voucher codes by reply is a strong sign: real purchases go through procurement.",
+  "stage": "request",
+  "red_flags": [
+   "The executive's address uses 'northstar-mail.example', not the company domain",
+   "Personal purchases outside the expense process are unusual"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "AUT-REQ-D3",
+  "template_id": "AUT-REQ",
+  "channel": "email",
+  "sender": "Marguerite Voss (CFO) <m.voss@northstar-mail.example>",
+  "subject": "Vouchers for client event",
+  "message": "I am in meetings and cannot talk. Please buy six $100 vouchers from the usual retailer and send me the codes by reply.",
+  "is_scam": true,
+  "tactic": "authority",
+  "difficulty": 3,
+  "explanation": "Classic executive impersonation. The request for voucher codes by reply is a strong sign: real purchases go through procurement.",
+  "stage": "request",
+  "red_flags": [
+   "The executive's address uses 'northstar-mail.example', not the company domain"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "AUT-ESC-D1",
+  "template_id": "AUT-ESC",
+  "channel": "call",
+  "sender": "Caller (unknown number)",
+  "subject": "Call transcript",
+  "message": "Caller: 'This is Inspector Hale from the regional business bureau. We emailed you twice already. You must confirm the company payroll login details now so we can close this file. I am authorised to escalate this to your director today. Hesitating counts as obstruction.'",
+  "is_scam": true,
+  "tactic": "authority",
+  "difficulty": 1,
+  "explanation": "Official titles and legal-sounding threats are used to make you feel you cannot question the caller.",
+  "stage": "escalation",
+  "red_flags": [
+   "No regulator asks for system credentials by phone, and no reference number is given",
+   "Threatens escalation to your director",
+   "Accuses you of obstruction for hesitating"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "AUT-ESC-D2",
+  "template_id": "AUT-ESC",
+  "channel": "call",
+  "sender": "Caller (unknown number)",
+  "subject": "Call transcript",
+  "message": "Caller: 'This is Inspector Hale from the regional business bureau. We emailed you twice already. You must confirm the company payroll login details now so we can close this file. I am authorised to escalate this to your director today.'",
+  "is_scam": true,
+  "tactic": "authority",
+  "difficulty": 2,
+  "explanation": "Official titles and legal-sounding threats are used to make you feel you cannot question the caller.",
+  "stage": "escalation",
+  "red_flags": [
+   "No regulator asks for system credentials by phone, and no reference number is given",
+   "Threatens escalation to your director"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "AUT-ESC-D3",
+  "template_id": "AUT-ESC",
+  "channel": "call",
+  "sender": "Caller (unknown number)",
+  "subject": "Call transcript",
+  "message": "Caller: 'This is Inspector Hale from the regional business bureau. We emailed you twice already. You must confirm the company payroll login details now so we can close this file.'",
+  "is_scam": true,
+  "tactic": "authority",
+  "difficulty": 3,
+  "explanation": "Official titles and legal-sounding threats are used to make you feel you cannot question the caller.",
+  "stage": "escalation",
+  "red_flags": [
+   "No regulator asks for system credentials by phone, and no reference number is given"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FAM-RAP-D1",
+  "template_id": "FAM-RAP",
+  "channel": "chat",
+  "sender": "Jonas (Brightwell Logistics)",
+  "subject": "Chat message",
+  "message": "Hey! We met at the harbour conference, right? Loved your talk on forecasting dashboards. I am putting together a small analyst group, mind sharing your direct number? Add me on this other messenger instead.",
+  "is_scam": true,
+  "tactic": "familiarity",
+  "difficulty": 1,
+  "explanation": "Flattery and false shared history create instant friendliness. People rarely challenge someone who seems to know them.",
+  "stage": "rapport",
+  "red_flags": [
+   "You do not recall meeting this person, and the chat is unprompted",
+   "Quickly asks for your direct contact details",
+   "Moves you to an unapproved app"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FAM-RAP-D2",
+  "template_id": "FAM-RAP",
+  "channel": "chat",
+  "sender": "Jonas (Brightwell Logistics)",
+  "subject": "Chat message",
+  "message": "Hey! We met at the harbour conference, right? Loved your talk on forecasting dashboards. I am putting together a small analyst group, mind sharing your direct number?",
+  "is_scam": true,
+  "tactic": "familiarity",
+  "difficulty": 2,
+  "explanation": "Flattery and false shared history create instant friendliness. People rarely challenge someone who seems to know them.",
+  "stage": "rapport",
+  "red_flags": [
+   "You do not recall meeting this person, and the chat is unprompted",
+   "Quickly asks for your direct contact details"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FAM-RAP-D3",
+  "template_id": "FAM-RAP",
+  "channel": "chat",
+  "sender": "Jonas (Brightwell Logistics)",
+  "subject": "Chat message",
+  "message": "Hey! We met at the harbour conference, right? Loved your talk on forecasting dashboards.",
+  "is_scam": true,
+  "tactic": "familiarity",
+  "difficulty": 3,
+  "explanation": "Flattery and false shared history create instant friendliness. People rarely challenge someone who seems to know them.",
+  "stage": "rapport",
+  "red_flags": [
+   "You do not recall meeting this person, and the chat is unprompted"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FAM-PRT-D1",
+  "template_id": "FAM-PRT",
+  "channel": "email",
+  "sender": "Callum Reyes <callum.reyes@northstar-mail.example>",
+  "subject": "Quick favour",
+  "message": "Hi, hope the weekend was good! I am on my phone while travelling and my usual email is playing up, so I am writing from here. Are you free for a quick favour later? Please reply to this address only for now. Do not call me, my phone is broken.",
+  "is_scam": true,
+  "tactic": "familiarity",
+  "difficulty": 1,
+  "explanation": "A familiar name plus a plausible excuse for the odd address. The excuse itself is the red flag.",
+  "stage": "pretext",
+  "red_flags": [
+   "Your manager's usual address is on 'northstar.example', not 'northstar-mail.example'",
+   "Asks you to keep using the new address",
+   "Prevents you from phoning to check"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FAM-PRT-D2",
+  "template_id": "FAM-PRT",
+  "channel": "email",
+  "sender": "Callum Reyes <callum.reyes@northstar-mail.example>",
+  "subject": "Quick favour",
+  "message": "Hi, hope the weekend was good! I am on my phone while travelling and my usual email is playing up, so I am writing from here. Are you free for a quick favour later? Please reply to this address only for now.",
+  "is_scam": true,
+  "tactic": "familiarity",
+  "difficulty": 2,
+  "explanation": "A familiar name plus a plausible excuse for the odd address. The excuse itself is the red flag.",
+  "stage": "pretext",
+  "red_flags": [
+   "Your manager's usual address is on 'northstar.example', not 'northstar-mail.example'",
+   "Asks you to keep using the new address"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FAM-PRT-D3",
+  "template_id": "FAM-PRT",
+  "channel": "email",
+  "sender": "Callum Reyes <callum.reyes@northstar-mail.example>",
+  "subject": "Quick favour",
+  "message": "Hi, hope the weekend was good! I am on my phone while travelling and my usual email is playing up, so I am writing from here. Are you free for a quick favour later?",
+  "is_scam": true,
+  "tactic": "familiarity",
+  "difficulty": 3,
+  "explanation": "A familiar name plus a plausible excuse for the odd address. The excuse itself is the red flag.",
+  "stage": "pretext",
+  "red_flags": [
+   "Your manager's usual address is on 'northstar.example', not 'northstar-mail.example'"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FAM-REQ-D1",
+  "template_id": "FAM-REQ",
+  "channel": "sms",
+  "sender": "+1 555-0177 (unsaved number)",
+  "subject": "Text message",
+  "message": "Hi it's Imani from HR, new phone! Could you send me the spreadsheet with everyone's home addresses? Doing the holiday cards, thanks! I need it before lunch. Just text it here, email is slow.",
+  "is_scam": true,
+  "tactic": "familiarity",
+  "difficulty": 1,
+  "explanation": "A friendly tone and a harmless reason hide a request for bulk personal data.",
+  "stage": "request",
+  "red_flags": [
+   "Unsaved number; HR would use the HR system and would not ask for a full address list by text",
+   "Adds time pressure",
+   "Steers you away from company email"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FAM-REQ-D2",
+  "template_id": "FAM-REQ",
+  "channel": "sms",
+  "sender": "+1 555-0177 (unsaved number)",
+  "subject": "Text message",
+  "message": "Hi it's Imani from HR, new phone! Could you send me the spreadsheet with everyone's home addresses? Doing the holiday cards, thanks! I need it before lunch.",
+  "is_scam": true,
+  "tactic": "familiarity",
+  "difficulty": 2,
+  "explanation": "A friendly tone and a harmless reason hide a request for bulk personal data.",
+  "stage": "request",
+  "red_flags": [
+   "Unsaved number; HR would use the HR system and would not ask for a full address list by text",
+   "Adds time pressure"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FAM-REQ-D3",
+  "template_id": "FAM-REQ",
+  "channel": "sms",
+  "sender": "+1 555-0177 (unsaved number)",
+  "subject": "Text message",
+  "message": "Hi it's Imani from HR, new phone! Could you send me the spreadsheet with everyone's home addresses? Doing the holiday cards, thanks!",
+  "is_scam": true,
+  "tactic": "familiarity",
+  "difficulty": 3,
+  "explanation": "A friendly tone and a harmless reason hide a request for bulk personal data.",
+  "stage": "request",
+  "red_flags": [
+   "Unsaved number; HR would use the HR system and would not ask for a full address list by text"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FAM-ESC-D1",
+  "template_id": "FAM-ESC",
+  "channel": "chat",
+  "sender": "Callum R. (new account)",
+  "subject": "Chat message",
+  "message": "Still need that favour. It is the vendor payment we talked about. Change the bank details to the new account and do not loop in Finance. You have always been the one I trust with this. I am boarding, cannot talk. Just do it.",
+  "is_scam": true,
+  "tactic": "familiarity",
+  "difficulty": 1,
+  "explanation": "Bank-detail-change fraud. After weeks of friendly contact, the request feels like a favour. The process (Finance verification) is what protects you.",
+  "stage": "escalation",
+  "red_flags": [
+   "Skipping Finance's change-of-bank-details check is a major red flag",
+   "Flattery to lower your guard",
+   "Prevents any verification"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FAM-ESC-D2",
+  "template_id": "FAM-ESC",
+  "channel": "chat",
+  "sender": "Callum R. (new account)",
+  "subject": "Chat message",
+  "message": "Still need that favour. It is the vendor payment we talked about. Change the bank details to the new account and do not loop in Finance. You have always been the one I trust with this.",
+  "is_scam": true,
+  "tactic": "familiarity",
+  "difficulty": 2,
+  "explanation": "Bank-detail-change fraud. After weeks of friendly contact, the request feels like a favour. The process (Finance verification) is what protects you.",
+  "stage": "escalation",
+  "red_flags": [
+   "Skipping Finance's change-of-bank-details check is a major red flag",
+   "Flattery to lower your guard"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FAM-ESC-D3",
+  "template_id": "FAM-ESC",
+  "channel": "chat",
+  "sender": "Callum R. (new account)",
+  "subject": "Chat message",
+  "message": "Still need that favour. It is the vendor payment we talked about. Change the bank details to the new account and do not loop in Finance.",
+  "is_scam": true,
+  "tactic": "familiarity",
+  "difficulty": 3,
+  "explanation": "Bank-detail-change fraud. After weeks of friendly contact, the request feels like a favour. The process (Finance verification) is what protects you.",
+  "stage": "escalation",
+  "red_flags": [
+   "Skipping Finance's change-of-bank-details check is a major red flag"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FEA-RAP-D1",
+  "template_id": "FEA-RAP",
+  "channel": "sms",
+  "sender": "+1 555-0188",
+  "subject": "Text message",
+  "message": "Security Notice: unusual sign-in to your Northstar account from another country. We will message you shortly with next steps. Your account may be suspended. Failure to respond will lead to legal action.",
+  "is_scam": true,
+  "tactic": "fear",
+  "difficulty": 1,
+  "explanation": "A frightening notice primes you to expect a 'fix' from the same sender. Fear narrows attention.",
+  "stage": "rapport",
+  "red_flags": [
+   "Unknown number and no ticket reference; real alerts arrive through the security portal",
+   "Threatens suspension to frighten you",
+   "Vague legal threat"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FEA-RAP-D2",
+  "template_id": "FEA-RAP",
+  "channel": "sms",
+  "sender": "+1 555-0188",
+  "subject": "Text message",
+  "message": "Security Notice: unusual sign-in to your Northstar account from another country. We will message you shortly with next steps. Your account may be suspended.",
+  "is_scam": true,
+  "tactic": "fear",
+  "difficulty": 2,
+  "explanation": "A frightening notice primes you to expect a 'fix' from the same sender. Fear narrows attention.",
+  "stage": "rapport",
+  "red_flags": [
+   "Unknown number and no ticket reference; real alerts arrive through the security portal",
+   "Threatens suspension to frighten you"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FEA-RAP-D3",
+  "template_id": "FEA-RAP",
+  "channel": "sms",
+  "sender": "+1 555-0188",
+  "subject": "Text message",
+  "message": "Security Notice: unusual sign-in to your Northstar account from another country. We will message you shortly with next steps.",
+  "is_scam": true,
+  "tactic": "fear",
+  "difficulty": 3,
+  "explanation": "A frightening notice primes you to expect a 'fix' from the same sender. Fear narrows attention.",
+  "stage": "rapport",
+  "red_flags": [
+   "Unknown number and no ticket reference; real alerts arrive through the security portal"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FEA-PRT-D1",
+  "template_id": "FEA-PRT",
+  "channel": "email",
+  "sender": "Security Team <alerts@northstar-secure.example>",
+  "subject": "Incident opened in your name",
+  "message": "We detected malware sending data from your laptop and have opened an incident in your name. To help clear you, you will need to run a diagnostic we will send next. HR and Legal have already been copied. Do NOT switch off your computer or speak to anyone.",
+  "is_scam": true,
+  "tactic": "fear",
+  "difficulty": 1,
+  "explanation": "The goal is to make you cooperate with whatever comes next. Telling you to avoid colleagues cuts off your best defence: a second opinion.",
+  "stage": "pretext",
+  "red_flags": [
+   "Sender domain 'northstar-secure.example' is not the company domain",
+   "Threatens involving HR and Legal to scare you",
+   "Tells you not to ask anyone"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FEA-PRT-D2",
+  "template_id": "FEA-PRT",
+  "channel": "email",
+  "sender": "Security Team <alerts@northstar-secure.example>",
+  "subject": "Incident opened in your name",
+  "message": "We detected malware sending data from your laptop and have opened an incident in your name. To help clear you, you will need to run a diagnostic we will send next. HR and Legal have already been copied.",
+  "is_scam": true,
+  "tactic": "fear",
+  "difficulty": 2,
+  "explanation": "The goal is to make you cooperate with whatever comes next. Telling you to avoid colleagues cuts off your best defence: a second opinion.",
+  "stage": "pretext",
+  "red_flags": [
+   "Sender domain 'northstar-secure.example' is not the company domain",
+   "Threatens involving HR and Legal to scare you"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FEA-PRT-D3",
+  "template_id": "FEA-PRT",
+  "channel": "email",
+  "sender": "Security Team <alerts@northstar-secure.example>",
+  "subject": "Incident opened in your name",
+  "message": "We detected malware sending data from your laptop and have opened an incident in your name. To help clear you, you will need to run a diagnostic we will send next.",
+  "is_scam": true,
+  "tactic": "fear",
+  "difficulty": 3,
+  "explanation": "The goal is to make you cooperate with whatever comes next. Telling you to avoid colleagues cuts off your best defence: a second opinion.",
+  "stage": "pretext",
+  "red_flags": [
+   "Sender domain 'northstar-secure.example' is not the company domain"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FEA-REQ-D1",
+  "template_id": "FEA-REQ",
+  "channel": "chat",
+  "sender": "IT Helpdesk Live",
+  "subject": "Chat message",
+  "message": "Your laptop is leaking data right now. To stop it, tell me the code your authenticator app is showing. Every minute costs the company money and it is logged under your name. I cannot give you a ticket number, there is no time.",
+  "is_scam": true,
+  "tactic": "fear",
+  "difficulty": 1,
+  "explanation": "One-time codes exist to prove it is you. Handing one over defeats the protection, however alarming the story is.",
+  "stage": "request",
+  "red_flags": [
+   "No legitimate IT person ever needs your one-time code",
+   "Personal blame to increase panic",
+   "Refuses to give a ticket number"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FEA-REQ-D2",
+  "template_id": "FEA-REQ",
+  "channel": "chat",
+  "sender": "IT Helpdesk Live",
+  "subject": "Chat message",
+  "message": "Your laptop is leaking data right now. To stop it, tell me the code your authenticator app is showing. Every minute costs the company money and it is logged under your name.",
+  "is_scam": true,
+  "tactic": "fear",
+  "difficulty": 2,
+  "explanation": "One-time codes exist to prove it is you. Handing one over defeats the protection, however alarming the story is.",
+  "stage": "request",
+  "red_flags": [
+   "No legitimate IT person ever needs your one-time code",
+   "Personal blame to increase panic"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FEA-REQ-D3",
+  "template_id": "FEA-REQ",
+  "channel": "chat",
+  "sender": "IT Helpdesk Live",
+  "subject": "Chat message",
+  "message": "Your laptop is leaking data right now. To stop it, tell me the code your authenticator app is showing.",
+  "is_scam": true,
+  "tactic": "fear",
+  "difficulty": 3,
+  "explanation": "One-time codes exist to prove it is you. Handing one over defeats the protection, however alarming the story is.",
+  "stage": "request",
+  "red_flags": [
+   "No legitimate IT person ever needs your one-time code"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FEA-ESC-D1",
+  "template_id": "FEA-ESC",
+  "channel": "call",
+  "sender": "Caller (unknown number)",
+  "subject": "Call transcript",
+  "message": "Caller: 'I am calling about the incident I emailed you about. HR has been notified. Please read me the code that just arrived on your phone. If we do not fix this on this call you will be suspended, and your manager cannot help. Stay on the line and do not hang up.'",
+  "is_scam": true,
+  "tactic": "fear",
+  "difficulty": 1,
+  "explanation": "At escalation, the threat and the demand arrive together. Calm, independent verification is the antidote to fear.",
+  "stage": "escalation",
+  "red_flags": [
+   "Asking you to read out a code sent to your phone is never legitimate",
+   "Threatens suspension and isolates you from your manager",
+   "Tells you not to hang up and check"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FEA-ESC-D2",
+  "template_id": "FEA-ESC",
+  "channel": "call",
+  "sender": "Caller (unknown number)",
+  "subject": "Call transcript",
+  "message": "Caller: 'I am calling about the incident I emailed you about. HR has been notified. Please read me the code that just arrived on your phone. If we do not fix this on this call you will be suspended, and your manager cannot help.'",
+  "is_scam": true,
+  "tactic": "fear",
+  "difficulty": 2,
+  "explanation": "At escalation, the threat and the demand arrive together. Calm, independent verification is the antidote to fear.",
+  "stage": "escalation",
+  "red_flags": [
+   "Asking you to read out a code sent to your phone is never legitimate",
+   "Threatens suspension and isolates you from your manager"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "FEA-ESC-D3",
+  "template_id": "FEA-ESC",
+  "channel": "call",
+  "sender": "Caller (unknown number)",
+  "subject": "Call transcript",
+  "message": "Caller: 'I am calling about the incident I emailed you about. HR has been notified. Please read me the code that just arrived on your phone.'",
+  "is_scam": true,
+  "tactic": "fear",
+  "difficulty": 3,
+  "explanation": "At escalation, the threat and the demand arrive together. Calm, independent verification is the antidote to fear.",
+  "stage": "escalation",
+  "red_flags": [
+   "Asking you to read out a code sent to your phone is never legitimate"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "PRE-RAP-D1",
+  "template_id": "PRE-RAP",
+  "channel": "email",
+  "sender": "Linnea Ostrom <linnea@northpier-research.example>",
+  "subject": "Student case study",
+  "message": "Hello,\nI am a graduate student writing a case study on analytics teams in mid-sized firms. Could I ask a few general questions about your tooling? Which cloud and VPN products does your team use? Could you also forward the org chart?",
+  "is_scam": true,
+  "tactic": "pretexting",
+  "difficulty": 1,
+  "explanation": "Reconnaissance. Harmless-sounding answers build a map of your systems for later attacks.",
+  "stage": "rapport",
+  "red_flags": [
+   "An unknown outsider asking about internal tools; no approved research request exists",
+   "Asks which security tools you use",
+   "Asks for internal structure"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "PRE-RAP-D2",
+  "template_id": "PRE-RAP",
+  "channel": "email",
+  "sender": "Linnea Ostrom <linnea@northpier-research.example>",
+  "subject": "Student case study",
+  "message": "Hello,\nI am a graduate student writing a case study on analytics teams in mid-sized firms. Could I ask a few general questions about your tooling? Which cloud and VPN products does your team use?",
+  "is_scam": true,
+  "tactic": "pretexting",
+  "difficulty": 2,
+  "explanation": "Reconnaissance. Harmless-sounding answers build a map of your systems for later attacks.",
+  "stage": "rapport",
+  "red_flags": [
+   "An unknown outsider asking about internal tools; no approved research request exists",
+   "Asks which security tools you use"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "PRE-RAP-D3",
+  "template_id": "PRE-RAP",
+  "channel": "email",
+  "sender": "Linnea Ostrom <linnea@northpier-research.example>",
+  "subject": "Student case study",
+  "message": "Hello,\nI am a graduate student writing a case study on analytics teams in mid-sized firms. Could I ask a few general questions about your tooling?",
+  "is_scam": true,
+  "tactic": "pretexting",
+  "difficulty": 3,
+  "explanation": "Reconnaissance. Harmless-sounding answers build a map of your systems for later attacks.",
+  "stage": "rapport",
+  "red_flags": [
+   "An unknown outsider asking about internal tools; no approved research request exists"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "PRE-PRT-D1",
+  "template_id": "PRE-PRT",
+  "channel": "chat",
+  "sender": "Corvane Cloud Support (chat)",
+  "subject": "Chat message",
+  "message": "Hi, this is a courtesy check from Corvane Cloud support. We are updating our records and want to confirm which people on your team manage admin accounts. Could you list the names and usernames they sign in with? It only takes a minute, no need to check with your manager.",
+  "is_scam": true,
+  "tactic": "pretexting",
+  "difficulty": 1,
+  "explanation": "A routine-sounding vendor check is used to identify the people with the most access.",
+  "stage": "pretext",
+  "red_flags": [
+   "The vendor contacted you unprompted and there is no open support case",
+   "Asks for names and usernames of admins",
+   "Discourages checking with your manager"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "PRE-PRT-D2",
+  "template_id": "PRE-PRT",
+  "channel": "chat",
+  "sender": "Corvane Cloud Support (chat)",
+  "subject": "Chat message",
+  "message": "Hi, this is a courtesy check from Corvane Cloud support. We are updating our records and want to confirm which people on your team manage admin accounts. Could you list the names and usernames they sign in with?",
+  "is_scam": true,
+  "tactic": "pretexting",
+  "difficulty": 2,
+  "explanation": "A routine-sounding vendor check is used to identify the people with the most access.",
+  "stage": "pretext",
+  "red_flags": [
+   "The vendor contacted you unprompted and there is no open support case",
+   "Asks for names and usernames of admins"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "PRE-PRT-D3",
+  "template_id": "PRE-PRT",
+  "channel": "chat",
+  "sender": "Corvane Cloud Support (chat)",
+  "subject": "Chat message",
+  "message": "Hi, this is a courtesy check from Corvane Cloud support. We are updating our records and want to confirm which people on your team manage admin accounts.",
+  "is_scam": true,
+  "tactic": "pretexting",
+  "difficulty": 3,
+  "explanation": "A routine-sounding vendor check is used to identify the people with the most access.",
+  "stage": "pretext",
+  "red_flags": [
+   "The vendor contacted you unprompted and there is no open support case"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "PRE-REQ-D1",
+  "template_id": "PRE-REQ",
+  "channel": "call",
+  "sender": "Caller (unknown number)",
+  "subject": "Call transcript",
+  "message": "Caller: 'Hi, Marcus from Corvane Cloud support. You opened a ticket last week about slow dashboards. To close it I need remote access to your machine. Can you read me the access code on your screen? I will text you the ticket number afterwards. Please also install the small helper tool I am about to describe.'",
+  "is_scam": true,
+  "tactic": "pretexting",
+  "difficulty": 1,
+  "explanation": "A convincing technical story ('your ticket') justifies remote access. Always check the ticket yourself via the known helpdesk first.",
+  "stage": "request",
+  "red_flags": [
+   "You never opened that ticket and there is no matching ticket in the helpdesk",
+   "Refuses to give a verifiable ticket number now",
+   "Asks you to install unknown software"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "PRE-REQ-D2",
+  "template_id": "PRE-REQ",
+  "channel": "call",
+  "sender": "Caller (unknown number)",
+  "subject": "Call transcript",
+  "message": "Caller: 'Hi, Marcus from Corvane Cloud support. You opened a ticket last week about slow dashboards. To close it I need remote access to your machine. Can you read me the access code on your screen? I will text you the ticket number afterwards.'",
+  "is_scam": true,
+  "tactic": "pretexting",
+  "difficulty": 2,
+  "explanation": "A convincing technical story ('your ticket') justifies remote access. Always check the ticket yourself via the known helpdesk first.",
+  "stage": "request",
+  "red_flags": [
+   "You never opened that ticket and there is no matching ticket in the helpdesk",
+   "Refuses to give a verifiable ticket number now"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "PRE-REQ-D3",
+  "template_id": "PRE-REQ",
+  "channel": "call",
+  "sender": "Caller (unknown number)",
+  "subject": "Call transcript",
+  "message": "Caller: 'Hi, Marcus from Corvane Cloud support. You opened a ticket last week about slow dashboards. To close it I need remote access to your machine. Can you read me the access code on your screen?'",
+  "is_scam": true,
+  "tactic": "pretexting",
+  "difficulty": 3,
+  "explanation": "A convincing technical story ('your ticket') justifies remote access. Always check the ticket yourself via the known helpdesk first.",
+  "stage": "request",
+  "red_flags": [
+   "You never opened that ticket and there is no matching ticket in the helpdesk"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "PRE-ESC-D1",
+  "template_id": "PRE-ESC",
+  "channel": "email",
+  "sender": "Corvane Support <case-update@corvane-support.example>",
+  "subject": "Case C-77310 - still open",
+  "message": "Following up on case C-77310. We cannot close it without remote access, and your dashboards may go offline from tomorrow. Please approve the access request now. Or reply with your admin password so we can do it overnight.",
+  "is_scam": true,
+  "tactic": "pretexting",
+  "difficulty": 1,
+  "explanation": "After rapport and a pretext, a consequence is added. A made-up case number is the thread to pull on.",
+  "stage": "escalation",
+  "red_flags": [
+   "The case number does not exist in your helpdesk, and the sender domain is not the vendor's known address",
+   "Asks you to approve access without checking",
+   "Asks for an admin password by email"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "PRE-ESC-D2",
+  "template_id": "PRE-ESC",
+  "channel": "email",
+  "sender": "Corvane Support <case-update@corvane-support.example>",
+  "subject": "Case C-77310 - still open",
+  "message": "Following up on case C-77310. We cannot close it without remote access, and your dashboards may go offline from tomorrow. Please approve the access request now.",
+  "is_scam": true,
+  "tactic": "pretexting",
+  "difficulty": 2,
+  "explanation": "After rapport and a pretext, a consequence is added. A made-up case number is the thread to pull on.",
+  "stage": "escalation",
+  "red_flags": [
+   "The case number does not exist in your helpdesk, and the sender domain is not the vendor's known address",
+   "Asks you to approve access without checking"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "PRE-ESC-D3",
+  "template_id": "PRE-ESC",
+  "channel": "email",
+  "sender": "Corvane Support <case-update@corvane-support.example>",
+  "subject": "Case C-77310 - still open",
+  "message": "Following up on case C-77310. We cannot close it without remote access, and your dashboards may go offline from tomorrow.",
+  "is_scam": true,
+  "tactic": "pretexting",
+  "difficulty": 3,
+  "explanation": "After rapport and a pretext, a consequence is added. A made-up case number is the thread to pull on.",
+  "stage": "escalation",
+  "red_flags": [
+   "The case number does not exist in your helpdesk, and the sender domain is not the vendor's known address"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "REW-RAP-D1",
+  "template_id": "REW-RAP",
+  "channel": "sms",
+  "sender": "+1 555-0161",
+  "subject": "Text message",
+  "message": "Congrats! You have been picked for the Northstar Wellness Draw. Reply YES to meet your prize concierge. Offer ends tonight! No cost, 100% guaranteed!!!",
+  "is_scam": true,
+  "tactic": "reward",
+  "difficulty": 1,
+  "explanation": "A small 'win' gets you to reply, which confirms your number is active and starts a conversation.",
+  "stage": "rapport",
+  "red_flags": [
+   "You did not enter any draw, and no such programme was announced on the intranet",
+   "Artificial deadline on a prize",
+   "Over-the-top guarantee language"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "REW-RAP-D2",
+  "template_id": "REW-RAP",
+  "channel": "sms",
+  "sender": "+1 555-0161",
+  "subject": "Text message",
+  "message": "Congrats! You have been picked for the Northstar Wellness Draw. Reply YES to meet your prize concierge.",
+  "is_scam": true,
+  "tactic": "reward",
+  "difficulty": 2,
+  "explanation": "A small 'win' gets you to reply, which confirms your number is active and starts a conversation.",
+  "stage": "rapport",
+  "red_flags": [
+   "You did not enter any draw, and no such programme was announced on the intranet"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "REW-RAP-D3",
+  "template_id": "REW-RAP",
+  "channel": "sms",
+  "sender": "+1 555-0161",
+  "subject": "Text message",
+  "message": "Congrats! You have been picked for the Northstar Wellness Draw. Reply YES to meet your prize concierge.",
+  "is_scam": true,
+  "tactic": "reward",
+  "difficulty": 3,
+  "explanation": "A small 'win' gets you to reply, which confirms your number is active and starts a conversation.",
+  "stage": "rapport",
+  "red_flags": [
+   "You did not enter any draw, and no such programme was announced on the intranet"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "REW-PRT-D1",
+  "template_id": "REW-PRT",
+  "channel": "email",
+  "sender": "Halcyon Rewards <perks@halcyon-perks.example>",
+  "subject": "Your employer bonus pool",
+  "message": "Your employer has enrolled you in a loyalty bonus pool worth up to $450. To begin, please confirm your staff ID and date of birth. Bonuses unclaimed after 24 hours return to the pool. Send a photo of your staff badge to speed things up.",
+  "is_scam": true,
+  "tactic": "reward",
+  "difficulty": 1,
+  "explanation": "A reward story justifies collecting personal details that can be used in later, more convincing attacks.",
+  "stage": "pretext",
+  "red_flags": [
+   "An unfamiliar outside company claims to speak for your employer and asks for personal data",
+   "Deadline pressure on a 'bonus'",
+   "Asks for a photo of your badge"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "REW-PRT-D2",
+  "template_id": "REW-PRT",
+  "channel": "email",
+  "sender": "Halcyon Rewards <perks@halcyon-perks.example>",
+  "subject": "Your employer bonus pool",
+  "message": "Your employer has enrolled you in a loyalty bonus pool worth up to $450. To begin, please confirm your staff ID and date of birth. Bonuses unclaimed after 24 hours return to the pool.",
+  "is_scam": true,
+  "tactic": "reward",
+  "difficulty": 2,
+  "explanation": "A reward story justifies collecting personal details that can be used in later, more convincing attacks.",
+  "stage": "pretext",
+  "red_flags": [
+   "An unfamiliar outside company claims to speak for your employer and asks for personal data",
+   "Deadline pressure on a 'bonus'"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "REW-PRT-D3",
+  "template_id": "REW-PRT",
+  "channel": "email",
+  "sender": "Halcyon Rewards <perks@halcyon-perks.example>",
+  "subject": "Your employer bonus pool",
+  "message": "Your employer has enrolled you in a loyalty bonus pool worth up to $450. To begin, please confirm your staff ID and date of birth.",
+  "is_scam": true,
+  "tactic": "reward",
+  "difficulty": 3,
+  "explanation": "A reward story justifies collecting personal details that can be used in later, more convincing attacks.",
+  "stage": "pretext",
+  "red_flags": [
+   "An unfamiliar outside company claims to speak for your employer and asks for personal data"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "REW-REQ-D1",
+  "template_id": "REW-REQ",
+  "channel": "chat",
+  "sender": "Culture Survey Team",
+  "subject": "Chat message",
+  "message": "Finish our 2-minute culture survey and get a $50 e-voucher. Sign in with your work password at culture-survey.example/start to begin. Only the first 40 respondents qualify. Your vouchar will be emailed instantly.",
+  "is_scam": true,
+  "tactic": "reward",
+  "difficulty": 1,
+  "explanation": "The prize is bait; the password prompt is the real goal. Legitimate surveys use your normal single sign-on, not a typed-in password on a new site.",
+  "stage": "request",
+  "red_flags": [
+   "A survey should never ask for your work password",
+   "Scarcity pressure",
+   "Spelling errors"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "REW-REQ-D2",
+  "template_id": "REW-REQ",
+  "channel": "chat",
+  "sender": "Culture Survey Team",
+  "subject": "Chat message",
+  "message": "Finish our 2-minute culture survey and get a $50 e-voucher. Sign in with your work password at culture-survey.example/start to begin.",
+  "is_scam": true,
+  "tactic": "reward",
+  "difficulty": 2,
+  "explanation": "The prize is bait; the password prompt is the real goal. Legitimate surveys use your normal single sign-on, not a typed-in password on a new site.",
+  "stage": "request",
+  "red_flags": [
+   "A survey should never ask for your work password"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "REW-REQ-D3",
+  "template_id": "REW-REQ",
+  "channel": "chat",
+  "sender": "Culture Survey Team",
+  "subject": "Chat message",
+  "message": "Finish our 2-minute culture survey and get a $50 e-voucher. Sign in with your work password at culture-survey.example/start to begin.",
+  "is_scam": true,
+  "tactic": "reward",
+  "difficulty": 3,
+  "explanation": "The prize is bait; the password prompt is the real goal. Legitimate surveys use your normal single sign-on, not a typed-in password on a new site.",
+  "stage": "request",
+  "red_flags": [
+   "A survey should never ask for your work password"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "REW-ESC-D1",
+  "template_id": "REW-ESC",
+  "channel": "email",
+  "sender": "Halcyon Rewards <claims@halcyon-perks.example>",
+  "subject": "Reminder: unclaimed $450",
+  "message": "Your $450 bonus is still unclaimed. To release it we just need a small $12 processing fee, paid by voucher code. Many of your colleagues have already claimed theirs. Reply with the voucher code and a photo of the receipt.",
+  "is_scam": true,
+  "tactic": "reward",
+  "difficulty": 1,
+  "explanation": "Advance-fee scam. Once you have invested a little (data, a reply), a small payment seems reasonable.",
+  "stage": "escalation",
+  "red_flags": [
+   "Real rewards never require you to pay a fee first",
+   "Social proof pressure",
+   "Asks for voucher codes"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "REW-ESC-D2",
+  "template_id": "REW-ESC",
+  "channel": "email",
+  "sender": "Halcyon Rewards <claims@halcyon-perks.example>",
+  "subject": "Reminder: unclaimed $450",
+  "message": "Your $450 bonus is still unclaimed. To release it we just need a small $12 processing fee, paid by voucher code. Many of your colleagues have already claimed theirs.",
+  "is_scam": true,
+  "tactic": "reward",
+  "difficulty": 2,
+  "explanation": "Advance-fee scam. Once you have invested a little (data, a reply), a small payment seems reasonable.",
+  "stage": "escalation",
+  "red_flags": [
+   "Real rewards never require you to pay a fee first",
+   "Social proof pressure"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "REW-ESC-D3",
+  "template_id": "REW-ESC",
+  "channel": "email",
+  "sender": "Halcyon Rewards <claims@halcyon-perks.example>",
+  "subject": "Reminder: unclaimed $450",
+  "message": "Your $450 bonus is still unclaimed. To release it we just need a small $12 processing fee, paid by voucher code.",
+  "is_scam": true,
+  "tactic": "reward",
+  "difficulty": 3,
+  "explanation": "Advance-fee scam. Once you have invested a little (data, a reply), a small payment seems reasonable.",
+  "stage": "escalation",
+  "red_flags": [
+   "Real rewards never require you to pay a fee first"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "URG-RAP-D1",
+  "template_id": "URG-RAP",
+  "channel": "chat",
+  "sender": "OpsDesk_Live",
+  "subject": "Chat message",
+  "message": "Hi, are you at your desk right now? I need a quick favour in the next few minutes, it really can't wait. I'll explain once you confirm you're free. Please don't mention this to your manager.",
+  "is_scam": true,
+  "tactic": "urgency",
+  "difficulty": 1,
+  "explanation": "Urgency is used to stop you thinking. An unverifiable sender who hides the actual ask is a classic opener that tests whether you will engage.",
+  "stage": "rapport",
+  "red_flags": [
+   "'OpsDesk_Live' is not a person or team in the staff directory",
+   "Won't say what the favour is until you commit",
+   "Asks for secrecy"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "URG-RAP-D2",
+  "template_id": "URG-RAP",
+  "channel": "chat",
+  "sender": "OpsDesk_Live",
+  "subject": "Chat message",
+  "message": "Hi, are you at your desk right now? I need a quick favour in the next few minutes, it really can't wait. I'll explain once you confirm you're free.",
+  "is_scam": true,
+  "tactic": "urgency",
+  "difficulty": 2,
+  "explanation": "Urgency is used to stop you thinking. An unverifiable sender who hides the actual ask is a classic opener that tests whether you will engage.",
+  "stage": "rapport",
+  "red_flags": [
+   "'OpsDesk_Live' is not a person or team in the staff directory",
+   "Won't say what the favour is until you commit"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "URG-RAP-D3",
+  "template_id": "URG-RAP",
+  "channel": "chat",
+  "sender": "OpsDesk_Live",
+  "subject": "Chat message",
+  "message": "Hi, are you at your desk right now? I need a quick favour in the next few minutes, it really can't wait.",
+  "is_scam": true,
+  "tactic": "urgency",
+  "difficulty": 3,
+  "explanation": "Urgency is used to stop you thinking. An unverifiable sender who hides the actual ask is a classic opener that tests whether you will engage.",
+  "stage": "rapport",
+  "red_flags": [
+   "'OpsDesk_Live' is not a person or team in the staff directory"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "URG-PRT-D1",
+  "template_id": "URG-PRT",
+  "channel": "email",
+  "sender": "Accounts Payable <ap-desk@northstar-pay.example>",
+  "subject": "Invoice hold - action needed today",
+  "message": "Hello,\nA supplier invoice (ref INV-48812) assigned to your cost centre is about to lapse. I need you to confirm you are the approver so I can release it. It lapses at 5 pm today, so there is no time to route it through the usual approval queue. Reply with your approval code right away.",
+  "is_scam": true,
+  "tactic": "urgency",
+  "difficulty": 1,
+  "explanation": "A believable business story plus a deadline pushes you to skip the process that would expose it. The off-domain sender is the giveaway.",
+  "stage": "pretext",
+  "red_flags": [
+   "Sender domain 'northstar-pay.example' is not the company domain 'northstar.example'",
+   "Pressure to bypass the normal approval queue",
+   "Asks for a code by reply"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "URG-PRT-D2",
+  "template_id": "URG-PRT",
+  "channel": "email",
+  "sender": "Accounts Payable <ap-desk@northstar-pay.example>",
+  "subject": "Invoice hold - action needed today",
+  "message": "Hello,\nA supplier invoice (ref INV-48812) assigned to your cost centre is about to lapse. I need you to confirm you are the approver so I can release it. It lapses at 5 pm today, so there is no time to route it through the usual approval queue.",
+  "is_scam": true,
+  "tactic": "urgency",
+  "difficulty": 2,
+  "explanation": "A believable business story plus a deadline pushes you to skip the process that would expose it. The off-domain sender is the giveaway.",
+  "stage": "pretext",
+  "red_flags": [
+   "Sender domain 'northstar-pay.example' is not the company domain 'northstar.example'",
+   "Pressure to bypass the normal approval queue"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "URG-PRT-D3",
+  "template_id": "URG-PRT",
+  "channel": "email",
+  "sender": "Accounts Payable <ap-desk@northstar-pay.example>",
+  "subject": "Invoice hold - action needed today",
+  "message": "Hello,\nA supplier invoice (ref INV-48812) assigned to your cost centre is about to lapse. I need you to confirm you are the approver so I can release it.",
+  "is_scam": true,
+  "tactic": "urgency",
+  "difficulty": 3,
+  "explanation": "A believable business story plus a deadline pushes you to skip the process that would expose it. The off-domain sender is the giveaway.",
+  "stage": "pretext",
+  "red_flags": [
+   "Sender domain 'northstar-pay.example' is not the company domain 'northstar.example'"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "URG-REQ-D1",
+  "template_id": "URG-REQ",
+  "channel": "sms",
+  "sender": "+1 555-0142",
+  "subject": "Text message",
+  "message": "Northstar IT: your VPN token expires in 15 minutes. Re-enter your login at northstar-vpn-renew.example/s to keep access. Act now or you will be locked out for 3 days. Do NOT contact the helpdesk, they are overloaded.",
+  "is_scam": true,
+  "tactic": "urgency",
+  "difficulty": 1,
+  "explanation": "The request (enter your login) is hidden behind a countdown. Real credential renewals never ask you to type a password into a link from a text.",
+  "stage": "request",
+  "red_flags": [
+   "The link domain is not the company's, and IT does not collect logins via text links",
+   "Threat of lockout to rush you",
+   "Tells you not to use the official helpdesk"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "URG-REQ-D2",
+  "template_id": "URG-REQ",
+  "channel": "sms",
+  "sender": "+1 555-0142",
+  "subject": "Text message",
+  "message": "Northstar IT: your VPN token expires in 15 minutes. Re-enter your login at northstar-vpn-renew.example/s to keep access.",
+  "is_scam": true,
+  "tactic": "urgency",
+  "difficulty": 2,
+  "explanation": "The request (enter your login) is hidden behind a countdown. Real credential renewals never ask you to type a password into a link from a text.",
+  "stage": "request",
+  "red_flags": [
+   "The link domain is not the company's, and IT does not collect logins via text links"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "URG-REQ-D3",
+  "template_id": "URG-REQ",
+  "channel": "sms",
+  "sender": "+1 555-0142",
+  "subject": "Text message",
+  "message": "Northstar IT: your VPN token expires in 15 minutes. Re-enter your login at northstar-vpn-renew.example/s to keep access.",
+  "is_scam": true,
+  "tactic": "urgency",
+  "difficulty": 3,
+  "explanation": "The request (enter your login) is hidden behind a countdown. Real credential renewals never ask you to type a password into a link from a text.",
+  "stage": "request",
+  "red_flags": [
+   "The link domain is not the company's, and IT does not collect logins via text links"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "URG-ESC-D1",
+  "template_id": "URG-ESC",
+  "channel": "call",
+  "sender": "Caller (unknown number)",
+  "subject": "Call transcript",
+  "message": "Caller: 'This is Dennis from the payments team, calling again. The wire goes out in ten minutes and I still need your sign-off. If you hang up and call back we will miss the window. Just read me your authoriser PIN and we are done.'",
+  "is_scam": true,
+  "tactic": "urgency",
+  "difficulty": 1,
+  "explanation": "After earlier contact, the pressure is turned up. Stopping you from independently calling back is the scammer's most important move.",
+  "stage": "escalation",
+  "red_flags": [
+   "Nobody named Dennis appears on the payments team roster, and you never signed off on this wire",
+   "Discourages you from calling back on a known number",
+   "Asks for approval credentials verbally"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "URG-ESC-D2",
+  "template_id": "URG-ESC",
+  "channel": "call",
+  "sender": "Caller (unknown number)",
+  "subject": "Call transcript",
+  "message": "Caller: 'This is Dennis from the payments team, calling again. The wire goes out in ten minutes and I still need your sign-off. If you hang up and call back we will miss the window.'",
+  "is_scam": true,
+  "tactic": "urgency",
+  "difficulty": 2,
+  "explanation": "After earlier contact, the pressure is turned up. Stopping you from independently calling back is the scammer's most important move.",
+  "stage": "escalation",
+  "red_flags": [
+   "Nobody named Dennis appears on the payments team roster, and you never signed off on this wire",
+   "Discourages you from calling back on a known number"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ },
+ {
+  "id": "URG-ESC-D3",
+  "template_id": "URG-ESC",
+  "channel": "call",
+  "sender": "Caller (unknown number)",
+  "subject": "Call transcript",
+  "message": "Caller: 'This is Dennis from the payments team, calling again. The wire goes out in ten minutes and I still need your sign-off.'",
+  "is_scam": true,
+  "tactic": "urgency",
+  "difficulty": 3,
+  "explanation": "After earlier contact, the pressure is turned up. Stopping you from independently calling back is the scammer's most important move.",
+  "stage": "escalation",
+  "red_flags": [
+   "Nobody named Dennis appears on the payments team roster, and you never signed off on this wire"
+  ],
+  "legit_cues": [],
+  "lookalike_of": "none"
+ }
+]
